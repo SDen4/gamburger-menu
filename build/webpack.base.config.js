@@ -33,10 +33,6 @@ module.exports = {
             }, {
                 use: ['html-loader', 'pug-html-loader']
             }]
-        },{
-            test: /\.js$/,
-            loader: "babel-loader",
-            exclude: "/node_modules/"
         },
         {
             test: /\.(png|jpg|gif|svg)$/,
@@ -78,6 +74,10 @@ module.exports = {
                     options: {sourceMap: true, config: {path: `${PATHS.src}/js/postcss.config.js}`}}
                 }
             ]
+        },{
+            test: /\.js$/,
+            loader: "babel-loader",
+            exclude: "/node_modules/"
         }]
     },
     plugins: [

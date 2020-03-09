@@ -1,9 +1,9 @@
 # Denis Skryabin
 
-##  Start new project using this build:
+##  Simple gamburger menu:
 ```sh
-$ git clone https://github.com/SDen4/webpacktemplate-scss-pug.git
-$ cd webpacktemplate-scss-pug
+$ git clone https://github.com/SDen4/gamburger-menu.git
+$ cd gamburger-menu
 $ npm i
 $ git init
 $ git remote set-url origin <link of new repo in github>
