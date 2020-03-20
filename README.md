@@ -11,5 +11,4 @@ $ git push -u origin master
 $ npm run dev
 ```
 
-##  Watch on gitpages:
-https://sden4.github.io/gamburger-menu/dist/
+## Open on [gitpages](https://sden4.github.io/gamburger-menu/dist/)
